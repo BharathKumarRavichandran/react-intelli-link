@@ -37,6 +37,7 @@ class IntelliLink extends Component {
 IntelliLink.propTypes = {
   target: PropTypes.string,
   to: PropTypes.string,
+  rel: PropTypes.string,
   value: PropTypes.string
 };
 
