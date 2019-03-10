@@ -1,0 +1,38 @@
+{
+  "name": "react-intelli-link",
+  "version": "1.0.0",
+  "description": "React Intelli Link as the name says, it intelligently senses whether the provided url is internal/external url and suitably returns an anchor(<a>) or Link(<Link>) tag with the given attributes.",
+  "main": "build/index.js",
+  "peerDependencies": {
+    "react": "^15.6.2"
+  },
+  "dependencies": {
+    "is-url-external": "^1.0.3",
+    "prop-types": "^15.7.2",
+    "react": "^15.6.2",
+    "react-router-dom": "^4.3.1",
+    "webpack": "^2.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "author": {
+    "name": "Bharath Kumar Ravichandran",
+    "email": "bharathkumarravichandran@gmail.com"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/BharathKumarRavichandran/react-intelli-link"
+  },
+  "license" : "MIT"
+}
