@@ -11,12 +11,12 @@ React Intelli Link as the name says, it intelligently senses whether the provide
 
 React Intelli Link as the name says, it intelligently senses whether the provided url is internal/external url and suitably returns an anchor(`<a>`) or Link(`<Link>`) tag with the given attributes.
 
-This react component follows the following syntax and supports three attributes `to`, `rel` and `target`.
+This react component follows the following syntax and supports four attributes `to`, `rel`, `target` and `value`.
 Feed the url to `to` attribute of `IntelliLink`.
 
 ```javascript
 
-<IntelliLink to='https://www.google.co.in/' rel='external' target='_blank' />
+<IntelliLink to='https://www.google.co.in/' rel='external' target='_blank' value='Google Search' />
 
 ```
 
